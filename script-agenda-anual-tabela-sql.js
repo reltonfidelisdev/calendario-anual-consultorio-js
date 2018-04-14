@@ -30,7 +30,7 @@ for (i = 0; i < 12; i++) {
 		console.log(msg);
 		console.log("-------------------------------------");				
 			// Mostra os Horarios disponiveis
-			for (hora=0; hora <= 2; hora++){
+			for (hora=8; hora <= 9; hora++){
 			//msg = "Agendar às " + hora + " : 00 ";
 			//console.log(msg);
 					if(hora == 0){
@@ -38,7 +38,7 @@ for (i = 0; i < 12; i++) {
 						
 					}
 				// Mostra os Horarios disponiveis - Tempo de Consulta
-				for (minuto = 5; minuto < 59; minuto+=10){
+				for (minuto = 10; minuto <= 50; minuto+=10){
 				msg = "Agendar às " + hora + " : " + minuto;
 				console.log(msg);
 
